@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Viren Panchal | Full stack Developer </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ea54597820.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image" href="./images/myimage - Copy-photoaidcom-cropped.png" />
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/virenlogo.png" class="logo">
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#skills">Skills</a></li>
+                    <li> <a href="#education">Education</a></li>
+                    <li> <a href="#portfolio">My Projects</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p class="typing"></p>
+                <h1> Hi,I'm <span>Viren</span> Panchal </h1>
+             </div>
+         </div>
+     </div>
+
+<script src="Js/type.min.js"></script>
+<script>
+    var typed = new Typed('.typing',{
+      strings: ["", "Software Developer","Web Developer","Quick Learner"],
+      loop: true,
+      typeSpeed: 80,
+      backSpeed: 40
+    });
+</script>
+    <!-- ----------------------about------------------------------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user3.png" class="img-about">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="para">I am an experienced Full Stack Developer with a strong IT background, boasting over 2 years of expertise in web development technologies.</p>
+                    <p class="para">Programming Technologies: Java,Python,C++,C,ASP.Net</p>
+                    <p class="para">Frontend Technologies: HTML, CSS, JavaScript, jQuery, JSON, JSP, Servlet, JDBC, Angular JS, NodeJS </p>
+                    <p class="para">Backend Frameworks: Spring MVC, Spring Boot, Spring Security, Hibernate, Django, Flask, ASP.Net core.</p>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------Skills--------------- -->
+    <div id="skills">
+        <div class="container">
+        <h1 class="skill-title">Skills</h1>
+        <div id="logos">
+            <div class="skill-cards" id="card-java">
+                <img id="java" src="images/java.png" title="Java" alt="Java" />
+                <p class="rating" id="java">✦✦✦✦✦</p>
+            </div>
+            <div class="skill-cards" id="card-angular">
+                <img id="angular" src="images/Angular.png" title="Angular" alt="Angular" />
+                <p class="rating" id="rating-angular">✦✦✦✦</p>
+            </div>
+            <div class="skill-cards" id="card-aws">
+                <img id="c" src="images/aws.png" title="AWS" alt="AWS" />
+                <p class="rating" id="rating-aws">✦✦✦✦✦</p>
+            </div>
+            <div class="skill-cards" id="card-python">
+                <img id="c" src="images/python.png" title="Python" alt="Python" />
+                <p class="rating" id="rating-python">✦✦✦</p>
+            </div>
+            <div class="skill-cards" id="card-nodejs">
+                <img id="git" src="images/node js.png" title="NodeJs" alt="NodeJs" />
+                <p class="rating" id="rating-nodejs">✦✦✦✦</p>
+            </div>
+            <div class="skill-cards" id="card-html-css-js">
+                <img id="front" src="images/html css js.png" title="HTML, CSS, JS" alt="HTML, CSS, JS" />
+                <p class="rating" id="rating-html-css-js">✦✦✦✦✦</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+   
+
+    <!-- --------------education--------------- -->
+    <div id="education">
+        <div class="container">
+            <h1 class="sub-title"> Education </h1>
+            <div class="services-list">  
+                <div>
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h2>Computer System Technician- Software Engineering (April 2024) </h2>
+                    <p class="education-para"> Sheridan College , Brampton, Ontario , Canada</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h2>Bacholor of IT Engineering (June 2019) </h2>
+                    <p class="education-para"> Gujarat Technological University , Gujarat . India</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------portfolio------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Under Maintenance </h3>
+                        <p>
+                            
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Under Maintenance</h3>
+                        <p></p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Under Maintenance</h3>
+                        <p> </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn"> See More</a>
+        </div>
+    </div>
+
+    <!-- // --------------------contact------------------ // -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> panchalviren00@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +19057826139</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/panchal.viren.75"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/iamviren/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/viren-panchal-77212817b/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+                    <a href="images/viren_resumee.pdf" download class="btn btn2">Download CV </a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                        </textarea>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p> Copyright @ Viren Panchal <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+    <!-- -------------------fixed button----------------- -->
+
+    <div class="fixed-buttons" title="github">
+        <a href="https://github.com/VirenPanchal" class="github-btn">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="images/viren_resumee.pdf" download class="cv-btn" title="Download_Resume">
+            <i class="fas fa-download"></i>
+        </a>
+    </div>
+    
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyYGC5xwT0MO7qlz65AABrAddO723THd6dAMAobmntxxCgbdXqj2bU0swYjmAJZe10J/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg= document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message send sucessfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+      <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+
+        }
+
+        function closemenu(){
+            sidemenu.style.right="-200px";
+
+        }
+
+      </script>
+</body>
+
+</html>
